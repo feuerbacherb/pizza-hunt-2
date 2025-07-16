@@ -12,7 +12,7 @@ const PizzaSchema = new Schema({
     default: Date.now,
   },
   size: {
-    type: STring,
+    type: String,
     default: "Large",
   },
   toppings: [],
