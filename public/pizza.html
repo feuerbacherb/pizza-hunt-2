@@ -10,14 +10,15 @@
   </head>
 
   <body>
-    <head class="py-3 mb-3">
+    <header class="py-3 mb-3">
       <div class="flex-row justify-space-between align-center container-fluid mx-auto">
         <a href="/">
           <h1 class="text-light bg-dark py-3 px-4 logo round-25-80">Pizza Hunt</h1>
         </a>
         <h3 class="text-light bg-dark p-3 round-25-80" id="back-btn">&larr; Go Back</h3>
       </div>
-    </head>
+    </header>
+
     <main class="container-fluid flex-row mx-auto justify-space-between align-start">
       <section class="col-12 col-lg-4 bg-tertiary p-3 rounded">
         <h2 class="text-dark" id="pizza-name"></h2>
@@ -33,10 +34,10 @@
 
       <section class="col-12 col-lg-8">
         <h2 class="bg-dark p-3 m-0 rounded">Comments</h2>
-        <!-- Print comments here -->
+        <!-- print comments here -->
         <div id="comment-section" class="mb-3"></div>
 
-        <!-- New comment form -->
+        <!-- new comment form -->
         <form id="new-comment-form" class="bg-dark p-3 mb-3 rounded">
           <div class="mb-2">
             <label for="written-by">Leave Your Name</label>
@@ -51,5 +52,6 @@
         </form>
       </section>
     </main>
+    <script src="./assets/js/single-pizza.js"></script>
   </body>
 </html>
